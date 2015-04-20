@@ -31,6 +31,8 @@ public class JsonRpcProtocolTest {
         Assert.assertEquals("Hello, haha", result);
         invoker.destroy();
         exporter.unexport();
+
+
     }
 
     /**
